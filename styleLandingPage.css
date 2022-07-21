@@ -1,0 +1,385 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "SF Pro Text";
+}
+body {
+  overflow-x: hidden;
+}
+
+@keyframes ss {
+  0% {
+    transform: translateY(16px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.section01 .row {
+  height: 224px;
+  align-items: center;
+  margin: auto;
+}
+.section01 nav {
+  display: none;
+}
+
+.section01 a {
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+
+  font-style: normal;
+  text-decoration: none;
+}
+
+.section01 button {
+  color: #ffe202;
+  padding: 15px 18px;
+  line-height: 20px;
+  border-radius: 26px;
+  font-weight: 400;
+}
+
+.section02 .row {
+  height: 340px;
+  width: 100%;
+  background: url(Image/Section\ 2\ cover.png);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 50%;
+}
+
+.section02 button {
+  color: #ffe202;
+  padding: 12px 18px;
+  line-height: 20px;
+  border-radius: 26px;
+  font-weight: 400;
+  margin-bottom: 15%;
+  margin-left: 5%;
+  width: 70%;
+}
+
+.section03 .row {
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  background: url(Image/Section\ 3\ -\ Prototype.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section04 .row {
+  height: 596px;
+  width: 100%;
+  background: url(Image/Section\ 4-\ web.png) no-repeat center / 100%;
+  margin: auto;
+}
+.section04 .iphone {
+  width: 100%;
+}
+.section04 .gesture {
+  width: 70%;
+}
+.section04 .gesture:hover {
+  animation: ss 0.6s linear infinite alternate;
+}
+.section04 .model1 {
+  overflow: hidden;
+}
+
+.section05 .row {
+  width: 100%;
+  margin: 0;
+}
+
+.section05 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section06 .row {
+  margin: 5% 0;
+  overflow-x: hidden;
+}
+
+.section06 h2 {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.section06 p {
+  font-weight: 400;
+  color: #797979;
+  margin-bottom: 20px;
+}
+
+.section06 button {
+  padding: 12px 50px;
+  color: #ffe202;
+  border-radius: 26px;
+  font-weight: 400;
+  margin: 2%;
+}
+
+.section06 img {
+  width: 70%;
+}
+
+.section07 {
+  margin-top: 60px;
+}
+
+.section07 .row {
+  margin: 20px 0;
+}
+
+.section07 h2 {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+}
+.section07 img {
+  max-width: 100%;
+  height: auto;
+}
+.section07 .col {
+  padding: 20px 0;
+}
+.section07 .model1,
+.model2,
+.model3 {
+  overflow: hidden;
+}
+
+.section08 {
+  padding: 70px 0;
+  background: #f5f5f5;
+}
+.section08 .row {
+  height: 100%;
+}
+.section08 img {
+  width: 100%;
+}
+
+.section08 button {
+  width: 12%;
+  color: #ffe202;
+  font-weight: 400;
+  padding: 12px 18px;
+  line-height: 20px;
+  border-radius: 26px;
+}
+.section09 .row {
+  padding: 5% 0;
+}
+.section09 img {
+  width: 100%;
+}
+
+.section09 a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #797979;
+  text-decoration: none;
+}
+
+.section09 p {
+  margin: 8px 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+@media (max-width: 1199.98px) {
+  .section01 .row {
+    text-align: center;
+  }
+  .section01 .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .section01 a {
+    font-size: 12px;
+  }
+  .section01 a:nth-child(7) {
+    text-align: end;
+  }
+  .section01 button {
+    font-size: 12px;
+    padding: 12px 15px;
+  }
+
+  .section02 .row {
+    height: 280px;
+  }
+  .section02 button {
+    padding: 9px 15px;
+    font-size: 12px;
+  }
+
+  .section03 .row {
+    height: 252px;
+  }
+  .section04 .row {
+    height: 390px;
+  }
+
+  .section06 h2 {
+    font-size: 125%;
+  }
+  .section06 p {
+    font-size: 12px;
+  }
+  .section06 button {
+    padding: 9px 37.5px;
+    font-size: 12px;
+  }
+  .section07 h2 {
+    font-size: 125%;
+  }
+  .section07 .col {
+    padding: 0;
+  }
+
+  .section08 {
+    padding: 50px 0;
+  }
+
+  .section08 button {
+    padding: 9px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section01 .large {
+    display: none;
+  }
+  .section01 nav {
+    display: block;
+  }
+  .section01 .small {
+    height: 70%;
+  }
+  .section01 ul {
+    margin-left: 2%;
+  }
+  .section01 button {
+    border-radius: 12px;
+  }
+
+  .section02 .row {
+    height: 240px;
+  }
+
+  .section02 button {
+    display: none;
+  }
+
+  .section03 .row {
+    height: 220px;
+  }
+
+  .section04 .row {
+    height: 350px;
+  }
+  .section08 button {
+    width: 17%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section02 .row {
+    height: 170px;
+  }
+  .section03 .row {
+    height: 150px;
+  }
+
+  .section04 .gesture {
+    display: none;
+  }
+  .section06 img {
+    width: 85%;
+  }
+
+  .section09 {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section01 ul {
+    margin-left: 4.5%;
+  }
+  .section02 .row {
+    height: 125px;
+  }
+  .section03 .row {
+    height: 90px;
+  }
+  .section04 .row {
+    height: 100%;
+    padding-top: 5%;
+  }
+  .section04 .iphone {
+    width: 60%;
+  }
+  .section06 .row .model1,
+  .row .model3 {
+    display: none;
+  }
+  .section06 h2 {
+    font-size: 100%;
+    text-align: center;
+    padding: 0 15%;
+  }
+  .section06 p {
+    display: none;
+  }
+
+  .section06 .model2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .section06 button {
+    margin: 0 10%;
+    padding: 9px 20px;
+  }
+
+  .section07 h2 {
+    font-size: 100%;
+    text-align: center;
+  }
+  .section07 .row .blank1 {
+    display: none;
+  }
+  .section07 .row .blank2 {
+    display: none;
+  }
+
+  .section07 .model3 {
+    display: block;
+  }
+
+  .section08 .row {
+    margin: 0 20px;
+  }
+
+  .section08 button {
+    width: 31%;
+    padding: 9px 6px;
+  }
+}
